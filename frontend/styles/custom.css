@@ -1,0 +1,33 @@
+.input-rt {
+    @apply block w-full border-transparent rounded-md focus:border-gray-500 focus:bg-white focus:ring-0;
+}
+.form-element-rt {
+    @apply input-rt bg-bginput;
+}
+.form-element-team-rt {
+    @apply input-rt bg-bgform;
+}
+.btn-common-rt {
+    @apply flex items-center justify-center py-1 text-black px-7 hover:cursor-pointer focus:outline-none;
+}
+.btn-rt {
+    @apply rounded-md btn-common-rt;
+}
+.btn-dasboard-rt {
+    @apply text-xl btn-rt;
+}
+.btn-group-rt {
+    @apply text-xl rounded-none btn-common-rt;
+}
+.form-submit-rt {
+    @apply btn-rt bg-bgsubmit;
+}
+.form-container-rt {
+    @apply px-6 antialiased text-gray-900 rounded-2xl bg-bgform w-formcontainer;
+}
+.btn-active-rt {
+    @apply font-bold bg-bgbtnactive;
+}
+.modal-submit-rt {
+    @apply flex items-center justify-center px-8 py-2 text-xl text-white rounded-md hover:cursor-pointer focus:outline-none bg-bgsubmit;
+}
